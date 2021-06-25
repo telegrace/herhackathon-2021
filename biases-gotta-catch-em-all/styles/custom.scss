@@ -1,0 +1,25 @@
+@import "~bootstrap/scss/bootstrap";
+$fa-font-path: "~font-awesome/fonts";
+@import "~font-awesome/scss/font-awesome";
+
+* {
+	font-family: "Courier New", Courier, monospace;
+}
+
+i {
+	font-size: 30px;
+	padding-right: 5px;
+}
+
+body {
+	background: #141b38;
+	color: white;
+}
+.uploader-wrapper {
+	padding: 10px;
+	border: #ffc2c0 solid 2px;
+	border-radius: 5px;
+}
+button {
+	border: solid 2px #141b38;
+}
