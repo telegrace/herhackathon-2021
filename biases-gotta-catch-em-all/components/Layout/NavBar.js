@@ -2,10 +2,11 @@ import Link from "next/link";
 
 function NavBar() {
 	return (
-		<nav className="navbar navbar-expand-lg navbar-light bg-light">
-			<div className="container md">
-				<ul className="navbar-nav">
-					<li className="nav-item">
+		<div className="container p-5">
+			<nav className="navbar">
+				<h1 className="mx-auto">B I A S E S</h1>
+				<ul className="navbar-nav mt-5 text-center mx-auto">
+					<li className="nav-item mt-2">
 						<Link href="/">
 							<a className="nav-link">
 								<i
@@ -16,7 +17,29 @@ function NavBar() {
 							</a>
 						</Link>
 					</li>
-					<li className="nav-item">
+					<li className="nav-item mt-5">
+						<Link href="/analyze">
+							<a className="nav-link">
+								<i
+									className="fa fa-line-chart"
+									aria-hidden="true"
+								></i>
+								Analyze
+							</a>
+						</Link>
+					</li>
+					<li className="nav-item mt-5">
+						<Link href="/files">
+							<a className="nav-link">
+								<i
+									className="fa fa-file-archive-o"
+									aria-hidden="true"
+								></i>
+								Files
+							</a>
+						</Link>
+					</li>
+					<li className="nav-item mt-5">
 						<Link href="/about">
 							<a className="nav-link">
 								<i
@@ -27,7 +50,7 @@ function NavBar() {
 							</a>
 						</Link>
 					</li>
-					<li className="nav-item">
+					<li className="nav-item mt-5 ">
 						<Link href="/contact">
 							<a className="nav-link">
 								<i className="fa fa-pencil-square-o "></i>
@@ -36,8 +59,8 @@ function NavBar() {
 						</Link>
 					</li>
 				</ul>
-			</div>
-		</nav>
+			</nav>
+		</div>
 	);
 }
 

@@ -8,7 +8,7 @@ export const config = {
 
 var storage = multer.diskStorage({
 	destination: function (req, file, cb) {
-		cb(null, "./public/uploads");
+		cb(null, "./data");
 	},
 	filename: function (req, file, cb) {
 		cb(null, file.originalname);
