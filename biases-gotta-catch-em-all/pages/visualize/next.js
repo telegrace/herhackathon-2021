@@ -1,12 +1,11 @@
-import BreadcrumbAnalyze from "../components/Layout/BreadcrumbHome";
-import Analysis from "../components/Analysis";
+import Analysis from "../../components/Analysis";
+import BreadcrumbAnalyze from "../../components/Layout/BreadcrumbAnalyze";
 import Image from "next/image";
 
-const Analyze = () => {
+const NextPage = () => {
 	return (
 		<div>
 			<BreadcrumbAnalyze />
-
 			<div className="position-relative text-center mt-5 ">
 				<Image
 					alt="Mountains"
@@ -20,4 +19,4 @@ const Analyze = () => {
 		</div>
 	);
 };
-export default Analyze;
+export default NextPage;

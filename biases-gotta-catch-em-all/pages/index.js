@@ -6,7 +6,6 @@ const Home = () => {
 	return (
 		<div>
 			<BreadcrumbHome />
-
 			<div className="position-relative text-center mt-5">
 				<div className=""></div>
 				<Image

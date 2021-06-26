@@ -62,10 +62,9 @@ const FileUploader = () => {
 	});
 
 	return (
-		<div className="container mt-3 w-50 file-uploader">
+		<div className="container w-50 file-uploader" style={{"height": "80vh"}}>
 			<h1 className="mt-5 mb-3">B I A S E S</h1>
 			<h3 className=" mb-3">Gotta catch 'em all</h3>
-
 			{error && (
 				<div className="alert alert-danger" role="alert">
 					Something went wrong! Please try again.
@@ -73,27 +72,27 @@ const FileUploader = () => {
 			)}
 			<div className="mt-3 mb-3 mx-auto uploader-wrapper">
 				<div className="text-center mt-3">
-					<p>Click to browse your files or drag and drop.</p>
+					<p>Upload your <strong>test.csv</strong> and <strong>train.csv</strong> files</p>
+					<p>Click to browse your files or drag and drop them</p>
 				</div>
 				<DragDrop uppy={uppy} />
 			</div>
+			
 			{success && (
 				<>
 					<div className="alert alert-success mt-4" role="alert">
-						<i className="fa fa-check" aria-hidden="true"></i> File
+						<i className="fa fa-check" aria-hidden="true"></i> Files
 						Uploaded!
 					</div>
-					<div className="container">
-						<Link href="/analyze">
+					<div className="container mt-3 ">
+						<Link href="/visualize">
 							<button
 								type="button"
 								className="btn btn-light align-end"
 							>
-								<i
-									className="fa fa-line-chart"
-									aria-hidden="true"
-								></i>{" "}
-								Analyze
+								<i className="fa fa-eye" aria-hidden="true"></i>
+{" "}
+								Visualize
 							</button>
 						</Link>
 					</div>

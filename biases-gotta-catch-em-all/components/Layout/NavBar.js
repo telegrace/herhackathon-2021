@@ -18,7 +18,15 @@ function NavBar() {
 						</Link>
 					</li>
 					<li className="nav-item mt-5">
-						<Link href="/analyze">
+						<Link href="/visualize">
+							<a className="nav-link">
+								<i className="fa fa-eye" aria-hidden="true"></i>
+								Visualize
+							</a>
+						</Link>
+					</li>
+					<li className="nav-item mt-5">
+						<Link href="/visualize/next">
 							<a className="nav-link">
 								<i
 									className="fa fa-line-chart"
