@@ -9,17 +9,17 @@ const handler = async (req, res) => {
 			mode: "text",
 			pythonOptions: ["-u"], // get print results in real-time
 			scriptPath:
-				"/home/telegrace/Documents/CODING_JS/co-op/herhackathon-2021/biases-gotta-catch-em-all/pages/api/data/", //If you are having python_test.py script in same folder, then it's optional.
+				"/home/telegrace/Documents/CODING_JS/co-op/herhackathon-2021/biases-gotta-catch-em-all/data", //If you are having python_test.py script in same folder, then it's optional.
 			// args: ["shubhamk314"], //An argument which can be accessed in the script using sys.argv[1]
 		};
 
-		PythonShell.run("test.py", options, function (err, result) {
+		PythonShell.run("Step1_Upload.py", options, function (err, result) {
 			if (err) {
 				console.log("err", err);
 				res.status(500).send({ result });
 			} else {
-				console.log("result: ", result.toString());
-				res.status(200).send({ result: result.toString() });
+				console.log("result: ", result);
+				res.status(200).send({ result });
 			}
 		});
 	} else {
