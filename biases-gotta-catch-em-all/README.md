@@ -1,11 +1,15 @@
 # Biases - _Gotta Catch 'Em All_
 
--   The product of a 72hour hackathon for the [Her Hackathon 2021 - Deloitte](https://3f9a6bd1-49cb-4973-b051-ad7b2b6bcb13.filesusr.com/ugd/)94028d_e2957087350e4d08ba63240598ae2045.pdf)
+-   The product of a 72hour hackathon for the [Her Hackathon 2021 - Deloitte](https://www.thehackathoncompany.com/herhackathon-2021)
 
 -   [Back-end] (https://github.com/adehaan/herheckathon)
 
 -   The team
 -   [Grace - Front-end Developer](www.linkedin.com/in/telegrace)
+-   [Beatriz - Data-Scientist](https://www.linkedin.com/in/beatriz-santos-252ba9b3/)
+-   [Aniek - Data-Scientist](https://www.linkedin.com/in/aniek-de-haan-82306b121/)
+-   [Bettina - Storyteller]()
+-   [Katrina - UX Designer]()
 
 ## Features
 
