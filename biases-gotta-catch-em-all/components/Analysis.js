@@ -69,27 +69,27 @@ const Analysis = () => {
 						<tbody>
 							<tr>
 								<th scope="row">Acc</th>
-								<td>{apiData.General_model.acc}</td>
-								<td>{apiData.Male_model.acc}</td>
-								<td>{apiData.Female_model.precision}</td>
+								<td>{apiData.General_model.acc} %</td>
+								<td>{apiData.Male_model.acc} %</td>
+								<td>{apiData.Female_model.precision} %</td>
 							</tr>
 							<tr>
 								<th scope="row">Recall</th>
-								<td>{apiData.General_model.recall}</td>
-								<td>{apiData.Male_model.recall}</td>
-								<td>{apiData.Female_model.recall}</td>
+								<td>{apiData.General_model.recall} %</td>
+								<td>{apiData.Male_model.recall} %</td>
+								<td>{apiData.Female_model.recall} %</td>
 							</tr>
 							<tr>
 								<th scope="row">Precision</th>
-								<td>{apiData.General_model.precision}</td>
-								<td>{apiData.Male_model.precision}</td>
-								<td>{apiData.Female_model.precision}</td>
+								<td>{apiData.General_model.precision} %</td>
+								<td>{apiData.Male_model.precision} %</td>
+								<td>{apiData.Female_model.precision} %</td>
 							</tr>
 							<tr>
 								<th scope="row">F1</th>
-								<td>{apiData.General_model.f1}</td>
-								<td>{apiData.Male_model.f1}</td>
-								<td>{apiData.Female_model.f1}</td>
+								<td>{apiData.General_model.f1} %</td>
+								<td>{apiData.Male_model.f1} %</td>
+								<td>{apiData.Female_model.f1} %</td>
 							</tr>
 						</tbody>
 					</table>
@@ -118,6 +118,12 @@ const Analysis = () => {
 					</h3>
 				)}
 			</div>
+			<Link href="/visualize/custom">
+				<button type="button" className="btn btn-light mt-5">
+					<i className="fa fa-cog" aria-hidden="true"></i> Custom
+					Normalization
+				</button>
+			</Link>
 		</div>
 	);
 };

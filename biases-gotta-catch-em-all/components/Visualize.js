@@ -39,7 +39,19 @@ const Visualize = () => {
 			)}
 			{!loading && (
 				<>
-					<img src="/uploads/histogram1.png" alt="visualization" />
+					<div className="normalization">
+						<img src="/uploads/figure_1.png" alt="visualization" />
+						{""}
+						<img src="/uploads/figure_2.png" alt="visualization" />
+					</div>
+					<br></br>
+					<button type="button" className="btn btn-light mt-3">
+						<i
+							className="fa fa-chevron-circle-down"
+							aria-hidden="true"
+						></i>{" "}
+						Load More
+					</button>
 					<div className="container mt-3 p-3">
 						<div className="form">
 							Check for bias{" "}

@@ -15,7 +15,7 @@ const FileUploader = () => {
 		restrictions: {
 			maxNumberOfFiles: 3,
 			maxFileSize: 1048576 * 4,
-			allowedFileTypes: [".csv", ".json", ".xslx"],
+			allowedFileTypes: [".csv", ".json", ".xslx", ".py"],
 		},
 		autoProceed: true,
 	});
@@ -62,7 +62,10 @@ const FileUploader = () => {
 	});
 
 	return (
-		<div className="container w-50 file-uploader" style={{"height": "80vh"}}>
+		<div
+			className="container w-50 file-uploader"
+			style={{ height: "80vh" }}
+		>
 			<h1 className="mt-5 mb-3">B I A S E S</h1>
 			<h3 className=" mb-3">Gotta catch 'em all</h3>
 			{error && (
@@ -72,12 +75,16 @@ const FileUploader = () => {
 			)}
 			<div className="mt-3 mb-3 mx-auto uploader-wrapper">
 				<div className="text-center mt-3">
-					<p>Upload your <strong>test.csv</strong> and <strong>train.csv</strong> files</p>
+					<p>
+						Upload your <strong>test.csv</strong>,{" "}
+						<strong>train.csv</strong> and <strong>modal.py</strong>{" "}
+						files
+					</p>
 					<p>Click to browse your files or drag and drop them</p>
 				</div>
 				<DragDrop uppy={uppy} />
 			</div>
-			
+
 			{success && (
 				<>
 					<div className="alert alert-success mt-4" role="alert">
@@ -90,8 +97,7 @@ const FileUploader = () => {
 								type="button"
 								className="btn btn-light align-end"
 							>
-								<i className="fa fa-eye" aria-hidden="true"></i>
-{" "}
+								<i className="fa fa-eye" aria-hidden="true"></i>{" "}
 								Visualize
 							</button>
 						</Link>

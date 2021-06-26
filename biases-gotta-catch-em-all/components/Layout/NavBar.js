@@ -4,7 +4,12 @@ function NavBar() {
 	return (
 		<div className="container p-5">
 			<nav className="navbar">
-				<h1 className="mx-auto">B I A S E S</h1>
+				<Link href="/">
+					<a>
+						<h1 className="mx-auto">B I A S E S</h1>
+					</a>
+				</Link>
+				<br></br>
 				<ul className="navbar-nav mt-5 text-center mx-auto">
 					<li className="nav-item mt-2">
 						<Link href="/">

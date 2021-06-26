@@ -1,14 +1,26 @@
+import BreadcrumbAbout from "../components/Layout/BreadcrumbAbout";
+import Image from "next/image";
+
 const About = () => {
 	return (
-		<div className="container mt-5">
-			<div className="text-center">
-				<h1>
-					About Team Biased - <em>Gotta Catch 'Em All</em>
-				</h1>
-				<p>
-					This should have a short intro of the web page and our
-					photos/profiles that link to our LinkedIn?
-				</p>
+		<div>
+			<BreadcrumbAbout />
+
+			<div className="position-relative text-center mt-5 ">
+				<Image
+					alt="Mountains"
+					src="/images/background.webp"
+					layout="fill"
+					objectFit="cover"
+					quality={100}
+				/>
+				<div
+					className="container w-50 file-uploader"
+					style={{ height: "80vh" }}
+				>
+					<h1 className="mt-5 mb-2 p-5">A B O U T</h1>
+					<p>Our aim is reduce biases.</p>
+				</div>
 			</div>
 		</div>
 	);

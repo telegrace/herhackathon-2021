@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const BreadcrumbVisualize = () => {
+const BreadcrumbAbout = () => {
 	return (
 		<div className="p-5">
 			<nav aria-label="breadcrumb">
@@ -11,11 +11,11 @@ const BreadcrumbVisualize = () => {
 						</Link>
 					</li>
 					<li className="breadcrumb-item active" aria-current="page">
-						Visualize
+						About
 					</li>
 				</ol>
 			</nav>
 		</div>
 	);
 };
-export default BreadcrumbVisualize;
+export default BreadcrumbAbout;

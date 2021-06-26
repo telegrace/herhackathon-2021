@@ -45,3 +45,30 @@ body {
 button {
 	border: solid 2px #141b38;
 }
+
+a {
+	text-decoration: none;
+	color: #ffc2c0;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #ffc2c0;
+}
+.normalization,
+.visualization {
+	display: flex;
+}
+
+div.container.p-5 nav.navbar a h1.mx-auto {
+	color: white;
+}
+
+div.container.p-5 nav.navbar a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+div.container.w-50.file-uploader div.container.mt-3.p-3 div.form {
+	font-size: 1.2em;
+}

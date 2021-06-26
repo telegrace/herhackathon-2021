@@ -1,0 +1,14 @@
+{
+	"Before_model": {
+		"name": "before",
+		"var1": 13.66,
+		"var2": 23.81,
+		"var3": 3.43
+	},
+	"After_model": {
+		"name": "after",
+		"vara": 14.57,
+		"varb": 16.79,
+		"varc": 16.56
+	}
+}
