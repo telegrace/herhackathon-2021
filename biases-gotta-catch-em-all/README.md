@@ -5,11 +5,11 @@
 -   [Back-end] (https://github.com/adehaan/herheckathon)
 
 -   The team
--   [Grace - Front-end Developer](www.linkedin.com/in/telegrace)
+-   [Grace - Front-end Developer](https://www.linkedin.com/in/telegrace)
 -   [Beatriz - Data-Scientist](https://www.linkedin.com/in/beatriz-santos-252ba9b3/)
 -   [Aniek - Data-Scientist](https://www.linkedin.com/in/aniek-de-haan-82306b121/)
--   [Bettina - Storyteller]()
--   [Katrina - UX Designer]()
+-   [Bettina - Storyteller](https://www.linkedin.com/in/bettinabenzinger/)
+-   [Katrina - UX Designer](https://www.linkedin.com/in/katerinablazhevaux)
 
 ## Features
 
