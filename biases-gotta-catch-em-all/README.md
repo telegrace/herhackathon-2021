@@ -2,6 +2,9 @@
 
 -   The product of a 72hour hackathon for the [Her Hackathon 2021 - Deloitte](https://www.thehackathoncompany.com/herhackathon-2021)
 
+![Gif of tool](https://imgur.com/a/mqF6LjB)
+
+
 -   [Back-end] (https://github.com/adehaan/herheckathon)
 
 -   The team
